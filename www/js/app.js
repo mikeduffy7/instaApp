@@ -69,16 +69,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
-  .state('tab.legislators',{
-    url:'/legislators',
-    view:{
-      'tab-legislators':{
-        templateUrl:'templates/tab-legislators.html',
-        controller:'LegislatorCtrl'
-      }
-    }
-  })
-
   .state('tab.account', {
     url: '/account',
     views: {
